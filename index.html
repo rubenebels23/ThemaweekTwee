@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintage Vagabond</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Vintage Vagabond</h1>
+            <p>Timeless Styles for the Modern Soul</p>
+            <img src="vintageVagabond.png" alt="logo" width="200" height="200" style="border-radius: 10%;">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#almost-sold-out">Almost Sold Out</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="shop" class="hero">
+            <div class="hero-content">
+                <h2>Step Back in Time</h2>
+                <p>Discover our curated collection of vintage clothing from the 60s, 70s, and 80s.</p>
+                <a href="./index2.html" class="btn">Shop Now</a>
+            </div>
+        </section>
+
+   
+
+        <!-- Almost Sold Out Section -->
+        <section id="almost-sold-out" class="featured-products">
+            <h2>Almost Sold Out!</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="jacket.png" alt="Vintage Jacket">
+                    <h3>Retro Denim Jacket</h3>
+                    <p>$69.99</p>
+                    <button class="btn add-to-cart">Get it now!</button>
+                </div>
+                <div class="product-card">
+                    <img src="shoes11.webp" alt="Vintage Shoes">
+                    <h3>Skull Buckle Boots</h3>
+                    <p>$39.99</p>
+                    <button class="btn add-to-cart">Get it now!</button>
+                </div>
+                <div class="product-card">
+                    <img src="shirt.png" alt="Vintage Cap">
+                    <h3>Itachi tee</h3>
+                    <p>$29.99</p>
+                    <button class="btn add-to-cart">Get it now!</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <h2>Contact Us</h2>
+            <p>Have questions or feedback? We'd love to hear from you!</p>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Vintage Vagabond. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
